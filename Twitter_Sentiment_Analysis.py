@@ -18,10 +18,10 @@ def percentage(part, whole):
 def twitterSA(keyword, no_tweets):
     
     # Twitter Auth
-    consumer_key = '9ImT9QyOvd5MTKmBgJP1juu5Q' # Put your own consumer_key
-    consumer_secret = '5hFaSadXxYNZDarijHUfEQlT2eDfwLmiiVnzYP92FuSzjarcI8' # Put your own consumer_secret
-    access_token = '1259695801149816833-puH36TNNk1dDUI0drTGr7NZRvR2huE' # Put your own access_token
-    access_token_Secret = 'kF6SLDOm8O5XUXmNmaOgAhXLuHTOTpNDu3Fn4IlzA62Gp' # Put your own access_token_secret
+    consumer_key = '' # Put your own consumer_key
+    consumer_secret = '' # Put your own consumer_secret
+    access_token = '' # Put your own access_token
+    access_token_Secret = '' # Put your own access_token_secret
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_Secret)
     api = tweepy.API(auth)
